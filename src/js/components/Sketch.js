@@ -55,6 +55,10 @@ export default class Sketch {
 
 		this.camera.position.set(0, 0, 1);
 		this.controls = new OrbitControls(this.camera, this.renderer.domElement);
+		this.controls.enablePan = false;
+		this.controls.enableRotate = false;
+		// this.controls.enableDamping(false);
+		// this.controls.enableRotate(false);
 		this.time = 0;
 
 		this.isPlaying = true;
