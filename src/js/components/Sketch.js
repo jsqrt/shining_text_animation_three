@@ -369,9 +369,6 @@ export default class Sketch {
 		this.group1.add(this.textMesh1);
 		// this.group2.add(this.textMesh2);
 		// this.group3.add(this.textMesh3);
-
-		const axesHelper = new T.AxesHelper(20);
-		this.scene.add(axesHelper);
 	}
 
 	stop() {
